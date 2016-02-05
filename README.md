@@ -6,7 +6,8 @@ Setup
 ===========================================
 
 Run TableValuedTestCreationScript.sql in the scripts folder against your instance of sql server.
-NB. This has already be done in DEV. Check FILENAME path, ammend according to environment if you want to run elsewhere.
+
+<b>NB. This has already be done in DEV. Check FILENAME path, ammend according to environment if you want to run elsewhere.<b/>
 
 ===========================================
 Test Stored Procedure in SSMS
