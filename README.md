@@ -36,11 +36,12 @@ Stored Procedure result
 ===========================================
 Which should give you back:
 
-StaffId ProjectUID  RequestedDate
+AProjectUID	Name	Country		Email	Status	StaffId	PhotoUri	WaveUID		WaveName	WaveUserUID		DisplayTab
 
-11111	  1	          2016-02-05 00:28:36.407
+------------------------------------------------------------------------------------------------------------------------
 
-22222	  1	          2016-02-05 00:28:36.407
+1			AName	ACountry	AnEmail	AStatus	11111	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
+1			AName	ACountry	AnEmail	AStatus	22222	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
 
 ===========================================
 Calling Stored Procedure from .Net C# code
@@ -58,12 +59,12 @@ Calling Stored Procedure from .Net C# code
 ===========================================
 Which should give you back:
 
-11111	1	05/02/2016 00:43:12
-
-22222	1	05/02/2016 00:43:12
-
-33333	1	05/02/2016 00:43:12
-
-44444	1	05/02/2016 00:43:12
-
-55555	1	05/02/2016 00:43:12
+1	AName	ACountry	AnEmail	AStatus	11111	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
+----------------------------------------------------------------------------------------------------------------
+1	AName	ACountry	AnEmail	AStatus	22222	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
+----------------------------------------------------------------------------------------------------------------
+1	AName	ACountry	AnEmail	AStatus	33333	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
+----------------------------------------------------------------------------------------------------------------
+1	AName	ACountry	AnEmail	AStatus	44444	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
+----------------------------------------------------------------------------------------------------------------
+1	AName	ACountry	AnEmail	AStatus	55555	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
