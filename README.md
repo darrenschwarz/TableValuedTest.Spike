@@ -1,11 +1,15 @@
 # TableValuedTest.Spike
 TableValuedTest Spike - A simple example of proposed implementation for our bulk search story.
 
-<b>Setup
-
+==========================================
+Setup
+==========================================
 Run TableValuedTestCreationScript.sql
- 
-<b>Test Stored Procedure in SSMS<b/>
+
+==========================================
+Test Stored Procedure in SSMS
+========================================== 
+
 /* run in SSMS using TableValuedTest */    
 
 USE TableValuedTest;
@@ -28,6 +32,9 @@ INSERT INTO @SearchStaffIdsTVP (StaffId)
 
 EXEC [dbo].[usp_SearchStaffIds] 1, @SearchStaffIdsTVP; 
 
+==========================================
+Stored Procedure result
+========================================== 
 Which should give you back:
 
 StaffId ProjectUID  RequestedDate
