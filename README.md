@@ -1,7 +1,7 @@
 # TableValuedTest.Spike
 TableValuedTest Spike - A simple example of proposed implementation for our bulk search story.
 
-<b>Setup<b/>
+<b>Setup
 
 Run TableValuedTestCreationScript.sql
  
