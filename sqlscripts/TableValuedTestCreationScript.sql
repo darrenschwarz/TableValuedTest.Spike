@@ -10,7 +10,7 @@ CREATE DATABASE [TableValuedTest]
 ( NAME = N'TableValuedTest_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL12.SQL\MSSQL\DATA\TableValuedTest_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
 GO
 
-ALTER DATABASE [TableValuedTest] SET COMPATIBILITY_LEVEL = 120
+ALTER DATABASE [TableValuedTest] SET COMPATIBILITY_LEVEL = 110
 GO
 
 IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
@@ -103,9 +103,6 @@ GO
 ALTER DATABASE [TableValuedTest] SET TARGET_RECOVERY_TIME = 0 SECONDS 
 GO
 
-ALTER DATABASE [TableValuedTest] SET DELAYED_DURABILITY = DISABLED 
-GO
-
 ALTER DATABASE [TableValuedTest] SET  READ_WRITE 
 GO
 
@@ -132,13 +129,13 @@ CREATE PROCEDURE dbo.usp_SearchStaffIds
 	SELECT
 		@ProjectUID As AProjectUID, --this is just to demonstrate we are using @ProjectUID 
 		'AName' As Name, 
-		'ACountry' As ACountry,  
-		'AnEmail' As AnEmail,  
-		'AStatus' As AStatus,   
+		'ACountry' As Country,  
+		'AnEmail' As Email,  
+		'AStatus' As Status,   
 		StaffId, 
-		'APhotoUri' As APhotoUri,
-		'AWaveUID' As AWaveUID,
-		'AWaveName' As AWaveName,
-		'AWaveUserUID' As AWaveUserUID,
-		'ADisplayTab' As ADisplayTab		
+		'APhotoUri' As PhotoUri,
+		'AWaveUID' As WaveUID,
+		'AWaveName' As WaveName,
+		'AWaveUserUID' As WaveUserUID,
+		'ADisplayTab' As DisplayTab		
     FROM  @TvpStaffIDS;
