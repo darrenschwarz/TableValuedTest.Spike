@@ -38,9 +38,8 @@ Which should give you back:
 
 AProjectUID	Name	Country		Email	Status	StaffId	PhotoUri	WaveUID		WaveName	WaveUserUID		DisplayTab
 
-------------------------------------------------------------------------------------------------------------------------
-
 1			AName	ACountry	AnEmail	AStatus	11111	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
+
 1			AName	ACountry	AnEmail	AStatus	22222	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
 
 ===========================================
@@ -60,11 +59,11 @@ Calling Stored Procedure from .Net C# code
 Which should give you back:
 
 1	AName	ACountry	AnEmail	AStatus	11111	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
-----------------------------------------------------------------------------------------------------------------
+
 1	AName	ACountry	AnEmail	AStatus	22222	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
-----------------------------------------------------------------------------------------------------------------
+
 1	AName	ACountry	AnEmail	AStatus	33333	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
-----------------------------------------------------------------------------------------------------------------
+
 1	AName	ACountry	AnEmail	AStatus	44444	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
-----------------------------------------------------------------------------------------------------------------
+
 1	AName	ACountry	AnEmail	AStatus	55555	APhotoUri	AWaveUID	AWaveName	AWaveUserUID	ADisplayTab
