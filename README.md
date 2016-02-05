@@ -1,5 +1,5 @@
 # TableValuedTest.Spike
-A simple proposed implementation for our bulk search story.
+A simple proposed implementation for our bulk search story. If we can agree on this aspect of the implementation, we can clearly dilineate the work. Lefkos and I can then concentrate on the front end through to stored procedure call.
 
 ===========================================
 Setup
