@@ -1,15 +1,14 @@
 # TableValuedTest.Spike
-TableValuedTest Spike - A simple example of proposed implementation for our bulk search story.
+A simple proposed implementation for our bulk search story.
 
 ===========================================
 Setup
 ===========================================
-Run TableValuedTestCreationScript.sql
+Run TableValuedTestCreationScript.sql against your instance of sql server.
 
 ===========================================
 Test Stored Procedure in SSMS
 ===========================================
-
 /* run in SSMS using TableValuedTest */    
 
 USE TableValuedTest;
@@ -46,17 +45,16 @@ StaffId ProjectUID  RequestedDate
 ===========================================
 Calling Stored Procedure from .Net C# code
 ===========================================
-
 1) Open TableValuedTest.Spike.sln
 
-2) Right-Click TableValuedTest.Spike.csproj, and click "Manage Nuget Packages...", restore if neccessary.
+2) Right-Click TableValuedTest.Spike.csproj, and click "Manage Nuget Packages...", restore packages if neccessary.
 
-3) Update app.comfig to point at your sql instance.
+3) Update app.config connectionStrings "TableValuedTest", to point at your instance of sql server.
 
-4) Run DataTableTest in DataTableSpike.cs
+4) Run [Test] DataTableTest in DataTableSpike.cs
 
 ===========================================
-.Net C# code result
+.Net C# code TableValuedTest result
 ===========================================
 Which should give you back:
 
