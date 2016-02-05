@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableValuedTest.Spike", "src\TableValuedTest.Spike\TableValuedTest.Spike.csproj", "{7F65789A-BD3B-46F1-94AD-8D4717D571AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableValuedTest.Web", "src\TableValuedTest.Web\TableValuedTest.Web.csproj", "{B4CBE186-96F9-46E6-9DD9-95B58D44B374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7F65789A-BD3B-46F1-94AD-8D4717D571AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F65789A-BD3B-46F1-94AD-8D4717D571AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F65789A-BD3B-46F1-94AD-8D4717D571AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CBE186-96F9-46E6-9DD9-95B58D44B374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CBE186-96F9-46E6-9DD9-95B58D44B374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CBE186-96F9-46E6-9DD9-95B58D44B374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CBE186-96F9-46E6-9DD9-95B58D44B374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
