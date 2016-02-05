@@ -4,7 +4,7 @@ A simple proposed implementation for our bulk search story. If we can agree on t
 ===========================================
 Setup
 ===========================================
-Run TableValuedTestCreationScript.sql against your instance of sql server.
+Run TableValuedTestCreationScript.sql in the scripts folder against your instance of sql server.
 
 ===========================================
 Test Stored Procedure in SSMS
